@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div.wrap {
+            width: 1000px;
+            background: #ccc;
+            margin: 0 auto;
+        }
+        .header {
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        .content {
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .nav {
+            width: 30%;/*300+1+1+20+20=342*/
+            height: 300px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section {
+            width: 68%;
+            height: 300px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            float: right;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .footer {
+            height: 100px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">header</div>
+        <div class="content">
+            <div class="nav">nav</div>
+            <div class="section">section</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
